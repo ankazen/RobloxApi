@@ -21,4 +21,4 @@ async def roblox_proxy(request):
     return json(r.json())
 
 if __name__ == '__main__':
-    App.run(host='127.0.0.1', port='9040', access_log=False, debug=False)
+    App.run(host='127.0.0.1', port='9050', access_log=False, debug=False)
